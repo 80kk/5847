@@ -9,7 +9,7 @@ spec:
   containers:
 
   - name: logrotate
-    image: horiz0n/logrotate:latest
+    image: 
     volumeMounts:
     - name: logs
       mountPath: /var/log
